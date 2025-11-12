@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #1F2937;
+    color: white;
+}
+
+
+.header-link {
+    display: flex;
+    gap: 10px;
+    color: e5e7eb ;
+    font-size: 18px ;
+    
+}
+
+ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
