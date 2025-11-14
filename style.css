@@ -7,17 +7,21 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
     background-color: #1F2937;
     color: white;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px ;
 }
 
+.logo {
+    font-weight: bold;
+}
 
 .header-link {
     display: flex;
     gap: 10px;
-    color: e5e7eb ;
+    color: #e5e7eb ;
     font-size: 18px ;
     
 }
@@ -27,3 +31,32 @@ ul {
     list-style-type: none;
     padding: 0px;
 }
+
+.first-part {
+ background-color: #1F2937;   
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9fAf8;
+    margin-bottom: 0px;
+}
+
+.hero-secondary {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+}
+
