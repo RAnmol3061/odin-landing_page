@@ -117,3 +117,14 @@ button {
     font-size: 24px;
     
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#e5e7eb;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: 450;
+}
